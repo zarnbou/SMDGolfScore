@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details</title>
+    <script>
+        window.onload = function()
+        {
+            document.addEventListener("deviceready", init, false);
+        }
+        function init()
+        {
+            var myButton = document.getElementById("btnClick");
+            myButton.addEventListener("click", goToHome, false);
+        }
+        function goToHome()
+        {
+            window.location = "index.html";
+        }
+    </script>
+</head>
+<body>
+    <p>
+        Barack Hussein Obama II was born on 4th August, 1961 in Honolulu, Hawaii.
+        His parents are    Barack Hussein Obama, Sr and Stanley Ann Dunham.
+        His wife is Michelle LaVaughn Robinson and they have two children, Malia Ann Obama and Natasha Obama.
+    </p>
+    <button id="btnClick">Home</button>
+    <a href="professional.html">Professional Details</a>
+</body>
+</html>

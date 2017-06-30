@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Professional Details</title>
+    <script>
+        window.onload = function()
+        {
+            document.addEventListener("deviceready", init, false);
+        }
+        function init()
+        {
+            var myButton = document.getElementById("btnClick");
+            myButton.addEventListener("click", goToHome, false);
+        }
+        function goToHome()
+        {
+            window.location = "index.html";
+        }
+    </script>
+</head>
+<body>
+    <p>
+        Barack Obama is the 44th President of the United States and the first African American to hold the office.
+
+        Obama is a graduate of Columbia University and Harvard Law School, where he served as president of the Harvard Law Review.
+
+        He served three terms representing the 13th District in the Illinois Senate from 1997 to 2004.
+    </p>
+
+    <button id="btnClick">Home</button>
+    <a href="personal.html">Personal Details</a>
+</body>
+</html>
